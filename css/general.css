@@ -1,0 +1,175 @@
+/************************************ */
+/* GENERAL REUSERBLE COMPONRNTS  */
+/************************************ */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400rem;
+  color: #555;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.heading-primry,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.heading-primry {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #121a04;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+/* .btn, */
+.btn:link,
+.btn:visited {
+  border-radius: 0.9rem;
+  color: #fff;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #243407;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #121a04;
+  box-shadow: inset 0 0 0 0.3rem solid #fff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #e9ebe6;
+  box-shadow: inset 0 0 0 0.3rem solid #fff;
+}
+
+.link:visited,
+.link:link {
+  display: inline-block;
+  color: #243407;
+  text-decoration: none;
+  border-bottom: 1px solid #243407;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:hover {
+  color: #121a04;
+  border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.margin-class-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-buttom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/************************************ */
+/* GENERAL REUSERBLE COMPONRNTS  */
+/************************************ */
